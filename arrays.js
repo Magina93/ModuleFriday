@@ -5,9 +5,9 @@
 
 
 //CODE HERE
-const faveColors = ['red', 'green', 'black']
-const colorCopy = faveColors.slice(0, 3);
-console.log(colorCopy);
+// const faveColors = ['red', 'green', 'black']
+// const colorCopy = faveColors.slice(0, 3);
+// console.log(colorCopy);
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
@@ -45,11 +45,11 @@ console.log(middleNums);
 */
 
 // CODE HERE
-function bigOrSmall(arr)(answers) {
-if(let arr > 100)
-console.log(big);
-else if( arr <= 100) 
-{
-console.log(small)
-}
-}
+// function bigOrSmall(arr)(answers) {
+// if(let arr > 100)
+// console.log(big);
+// else if( arr <= 100) 
+// {
+// console.log(small)
+// }
+// }
