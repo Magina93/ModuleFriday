@@ -45,4 +45,11 @@ console.log(middleNums);
 */
 
 // CODE HERE
-function bigOrSmall(arr)
+function bigOrSmall(arr)(answers) {
+if(let arr > 100)
+console.log(big);
+else if( arr <= 100) 
+{
+console.log(small)
+}
+}
