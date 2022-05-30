@@ -1,23 +1,21 @@
 //////////////////PROBLEM 1////////////////////
-/* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
+// /* Create a copy of the faveColors array called colorCopy using the slice method. */
 
-// const faveColors = ['red', 'green', 'black']
+const faveColors = ['red', 'green', 'black']
 
 
 //CODE HERE
-// const faveColors = ['red', 'green', 'black']
-// const colorCopy = faveColors.slice(0, 3);
-// console.log(colorCopy);
+const colorCopy = faveColors.slice(0, 3);
+console.log(colorCopy);
+
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-const faveColors = ['red', 'green', 'black'];
-const colorCopy = faveColors.push('purple');
+colorCopy.push('purple')
+console.log(colorCopy)
 
-console.log(colorCopy);
 
-console.log(faveColors);
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -45,11 +43,16 @@ console.log(middleNums);
 */
 
 // CODE HERE
-// function bigOrSmall(arr)(answers) {
-// if(let arr > 100)
-// console.log(big);
-// else if( arr <= 100) 
-// {
-// console.log(small)
-// }
-// }
+function bigOrSmall(arr) {
+  const answers = [];
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i] <= 100) {
+      answers.push('small');
+    } else {
+      answers.push('big');
+    }
+  }
+  return answers
+}
+console.log(bigOrSmall([0, 105, 100]))
+

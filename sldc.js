@@ -17,9 +17,9 @@
 /*
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */ 
-// var x = Planning;
-// var y = Analysis of Requirements;
-// var z = Design;
-// var i = Implementation;
-// var t = Testing & Integration;
-// var m = Maintain;
+// let Planning ="deciding what to do";
+// let analysisofrequirements = "determine the specific of the products";
+// let Design = "designig the overall of the product";
+// let Implementation = "implementing the code";
+// let testing&integration = "making sure the product is functioning as it was supposed to";
+// let maintain = "making new features";

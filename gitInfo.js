@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-var gitDefinition = "It a program that allows individuals and teams to track changes to code projects prevents bugs and loss of progress";
+var gitDefinition = "It a program that allows individuals and teams to track changes to code projects prevents bugs and loss of progress"
 console.log(gitDefinition);
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,7 +19,7 @@ console.log(gitDefinition);
 */
 
 //CODE HERE
-var gitHubDefinition ="it is a website. It allows you to take your git repositories and upload/download them";
+var gitHubDefinition ="it is a website. It allows you to take your git repositories and upload/download them"
 console.log(gitHubDefinition);
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -36,8 +36,12 @@ console.log(gitHubDefinition);
 */
 
 //CODE HERE
-let init = "initialize a local repository right here in this folder. In the terinal usually type git init to initiate the process";
-console.log(init);
+const init = [
+    {
+     description: "initialize a local repository right here in this folder. In the terinal usually type git init to initiate the process",
+     code: "git init"
+}
+]
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -45,8 +49,12 @@ console.log(init);
 */
 
 //CODE HERE
-let clone = "copy a repo from Github and put it on my machine";
-console.log(clone);
+const clone = [
+    {
+     description: "copy a repo from Github and put it on my machine",
+     code: "clone <URL>"
+}
+]
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -54,8 +62,12 @@ console.log(clone);
 */
 
 //CODE HERE
-let status = "tell me about this repo. It usually tells you if it had been added before you can commit. I often used it after git add .";
-console.log(status);
+const status = [
+    {
+    description: "tell me about this repo. It usually tells you if it had been added before you can commit. I often used it after git add.",
+    code: "status"
+}
+]
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -63,8 +75,12 @@ console.log(status);
 */
 
 //CODE HERE
-let add = "Basically telling git that we want to include update on a particular file. git add .";
-console.log(add);
+const add = [
+    {
+    description: "Basically telling git that we want to include update on a particular file. git add.",
+    code: "add"
+}
+]
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -72,8 +88,12 @@ console.log(add);
 */
 
 //CODE HERE
-let commit = "it is created to capture the state of a project at that point in time. git commit -m files";
-console.log(commit);
+const commit = [
+    {
+    description:"it is created to capture the state of a project at that point in time. git commit -m files",
+    code: "commit"
+}
+]
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -82,5 +102,9 @@ console.log(commit);
 */
 
 //CODE HERE
-let push = "is used to push the local repository content to a remote repository. git push -u origin main ";
-console.log(push);
+const push = [
+{
+    description:"is used to push the local repository content to a remote repository. git push -u origin main",
+    code: "push"
+}
+]
